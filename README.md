@@ -21,19 +21,19 @@ Output (results):
 ```python
 def search_file(self, file_name, extension="", threads=None, *, target_path="", recursive=False):
 ```
-■ Path propriorities:
-    1. target_path argument
-    2. path in file_name
-    3. current path
-■ Extension propriorities:
-    1. extension argument
-    2. file_name argument (unchanged)
-■ Threads
-    1. if not given: threads count will be the number of CPU cores
-    2. if 1: will use main (current) thread
-    3. if files around are less than thread number: will use main (current) thread
-■ Set recursive to True to recursively search all folders below
-■ Tries to clean up RAM after the job
-■ Default is multi-threaded non-recursive
+■ Path propriorities:*same paragraph*
+    1. target_path argument*same paragraph*
+    2. path in file_name*same paragraph*
+    3. current path*same paragraph*
+■ Extension propriorities:*same paragraph*
+    1. extension argument*same paragraph*
+    2. file_name argument (unchanged)*same paragraph*
+■ Threads*same paragraph*
+    1. if not given: threads count will be the number of CPU cores*same paragraph*
+    2. if 1: will use main (current) thread*same paragraph*
+    3. if files around are less than thread number: will use main (current) thread*same paragraph*
+■ Set recursive to True to recursively search all folders below*same paragraph*
+■ Tries to clean up RAM after the job*same paragraph*
+■ Default is multi-threaded non-recursive*same paragraph*
 
 will write more documentation later
