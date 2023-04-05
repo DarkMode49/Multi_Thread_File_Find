@@ -22,11 +22,11 @@ Output (results):
 def search_file(self, file_name, extension="", threads=None, *, target_path="", recursive=False):
 ```
 <br/>
-■ Path propriorities:<br/>
+■ Path priorities:<br/>
 1. target_path argument<br/>
 2. path in file_name<br/>
 3. current path<br>
-■ Extension propriorities:<br/>
+■ Extension priorities:<br/>
 1. extension argument<br/>
 2. file_name argument (unchanged)<br/>
 ■ Threads<br/>
