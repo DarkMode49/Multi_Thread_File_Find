@@ -50,7 +50,7 @@ Output (results):
         </li>
         <li type="none">
           <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
-          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#search_file">search_file</span>
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#search_file">search_file</span>
         </li>
         <li type="none">
           <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
@@ -58,15 +58,15 @@ Output (results):
         </li>
         <li type="none">
           <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
-          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#find_all_files-static">find_all_files</a>
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#find_all_files-static">find_all_files</a>
         </li>
         <li type="none">
           <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
-          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#replace_extension-static">replace_extension</a>
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#replace_extension-static">replace_extension</a>
         </li>
         <li type="none">
           <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
-          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#dist_offsets-static">dist_offsets</a>
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#dist_offsets-static">dist_offsets</a>
         </li>
       </ul>
     </details>
