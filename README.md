@@ -72,6 +72,7 @@ Output (results):
     </details>
   </li>
 </ul>
+
 ## 📖 Definitions
 
 ### search_file
