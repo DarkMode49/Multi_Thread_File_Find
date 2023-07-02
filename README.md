@@ -20,6 +20,58 @@ Output (results):
 ```
 ['file_full_path/targetfile.mp3']
 ```
+
+<ul>
+  <li type="none">
+    <img src="https://cdn-icons-png.flaticon.com/512/2809/2809229.png" raw=true style="width: 30px;height: 30px;" />
+    <span>mtff</span>
+    <details open>
+      <summary></summary>
+      <ul>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>__init__</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>found</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>all_files</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>target</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>_search_file</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#search_file">search_file</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>free_mem</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#find_all_files-static">find_all_files</a>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#replace_extension-static">replace_extension</a>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find/edit/main/README.md#dist_offsets-static">dist_offsets</a>
+        </li>
+      </ul>
+    </details>
+  </li>
+</ul>
 ## 📖 Definitions
 
 ### search_file
