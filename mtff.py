@@ -19,11 +19,27 @@ class mtff():
             _all_files = self.all_files[start_index:end_index]
         else:
             _all_files = self.all_files
+        
+        
+        FILENAME, EXTENSION = 0, 1
+        if "*." in self.target:
+            target_extension = splitext(self.target)[EXTENSION]
 
-        for filename in _all_files:
-            if basename(filename) == self.target:
-                self.found.append(filename)
-    
+            for filename in _all_files:
+                if splitext(filename)[EXTENSION] == target_extension:
+                    self.found.append(filename)
+        elif ".*" in self.target:
+            target_filename = splitext(self.target)[FILENAME]
+
+            for filename in _all_files:
+                _filename = basename(filename)
+
+                if splitext(_filename)[FILENAME] == target_filename:
+                    self.found.append(filename)
+        else:
+            for filename in _all_files:
+                if basename(filename) == self.target:
+                    self.found.append(filename)
 
     def search_file(self, file_name, extension="", *, threads=None, target_path="", recursive=True) -> list:
         _path = ""
@@ -47,7 +63,11 @@ class mtff():
         if extension:
             file_name = mtff.replace_extension(file_name, extension)
         
+        # Scan to find all files that will be searched
         self.all_files = mtff.find_all_files(_path, recursive)
+
+        if file_name == "*.*" or (file_name == "*" and extension == "*"):
+            raise ValueError("File *.* is not accepted")
         
         if not threads:
             threads = cpu_count()
@@ -127,6 +147,8 @@ class mtff():
 
     @staticmethod
     def dist_offsets(length, parts) -> list:
+        if length < parts:
+            return None
         p = floor(length / parts)
         r = 0
         offsets = []
@@ -135,7 +157,8 @@ class mtff():
             offsets.append([r, r + p])
             r += p
         
-        offsets = [[x + 1, y] for x, y in offsets]
-        offsets[0][0] = 0
-        offsets[-1][1] = length - 1
+        offsets = [[x, y] for x, y in offsets]
+        if length != parts:
+            offsets[0][0] = 0
+            offsets[-1][1] = length
         return offsets

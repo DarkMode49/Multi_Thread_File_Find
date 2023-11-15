@@ -1,5 +1,5 @@
 # Multi Thread File Find
-A modular ready-to-use cross-platform Python file finder. Multi-threaded and recursive available.
+A modular ready-to-use cross-platform Python file finder. Multi-threaded and recursive
 
 ## Usage
 ```python
@@ -15,11 +15,68 @@ results = multi_thread_file_find.search_file("targetfile.mp3", threads=4)
 
 # Search with multi-thread on current path only
 results = multi_thread_file_find.search_file("targetfile.mp3", recursive=False)
+
+# NEW
+# Search for files with specific extension
+results = multi_thread_file_find.search_file("targetfile.*", threads=4)
 ```
 Output (results):
 ```
 ['file_full_path/targetfile.mp3']
 ```
+
+<ul>
+  <li type="none">
+    <img src="https://cdn-icons-png.flaticon.com/512/2809/2809229.png" raw=true style="width: 30px;height: 30px;" />
+    <span>mtff</span>
+    <details open>
+      <summary></summary>
+      <ul>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>__init__</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>found</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>all_files</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827800.png" raw=true style="width: 30px;height: 30px;" />
+          <span>target</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>_search_file</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#search_file">search_file</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <span>free_mem</span>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#find_all_files-static">find_all_files</a>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#replace_extension-static">replace_extension</a>
+        </li>
+        <li type="none">
+          <img src="https://cdn-icons-png.flaticon.com/512/3199/3199560.png" raw=true style="width: 30px;height: 30px;" />
+          <a href="https://github.com/DarkMode49/Multi_Thread_File_Find#dist_offsets-static">dist_offsets</a>
+        </li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
 ## 📖 Definitions
 
 ### search_file
@@ -121,7 +178,7 @@ replace_extension("file.", ".docx") # -> file.docx
 
 ### dist_offsets (Static)
 Is used to divide a list/array into equal parts. This method calculates the boundaries for each part of divison. The boundaries can be used to safely extract a part out of the list/iterable.
-<br/>⚠️Warning: this function has bugs
+<br/>
 
 #### Syntax
 ```python
@@ -145,6 +202,17 @@ dist_offsets(500, 2) # -> [[0, 250], [251, 499]]
 ```
 
 # Change Log
+## 2023-11-16
+### Added
+<ul>
+  <li>Feature to search for files with specific file name or extension</li>
+</ul>
+
+### Fixed
+<ul>
+  <li>dist_offsets bugs fixed</li>
+</ul>
+
 ## 2023-06-24
 ### Added
 <ul>
