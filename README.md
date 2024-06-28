@@ -1,6 +1,9 @@
 # Multi Thread File Find
 A modular ready-to-use cross-platform Python file finder. Multi-threaded and recursive
 
+# So nice of you
+Your 2$ donation to TRC20 `TVjhek46ypQxv3HEK7WtKqdGLoBuvztQRb` can help me not starve.
+
 ## Usage
 ```python
 from mtff import mtff
